@@ -170,3 +170,64 @@ button {
     border-radius: 50%;
     margin-bottom: 2rem;
 }
+
+/* Footer */
+
+.footer-section {
+    background-color: var(--color-white);
+}
+
+.footer-section__founder {
+    margin-top: 11rem;
+    position: relative;
+    height: 64.8rem;
+}
+
+.founder__image {
+    width: 47.7rem;
+}
+
+.founder__intro {
+    padding: 6.4rem;
+    background-color: var(--color-dark-purple);
+    position: absolute;
+    left: 35%;
+    bottom: 5rem;
+}
+
+.founder__intro > h2, .founder__intro > p {
+    color: var(--color-white);
+}
+
+.founder__intro > h2 {
+    margin: 0;
+}
+
+.founder__intro > p {
+    padding-bottom: 1rem;
+}
+
+.founder__pattern {
+    position: absolute; 
+    bottom: 0rem;
+    right: 8rem;
+}
+
+.footer-section__footer {
+    padding-top: 6rem;
+    padding-bottom: 11rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5.8rem;
+    align-items: center;
+}
+
+.footer-section__footer > img {
+    width: 9.6rem;
+    height: 2.46rem;
+}
+
+.footer__social-icons {
+    display: flex;
+    column-gap: 2.8rem; 
+}
