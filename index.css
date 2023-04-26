@@ -1,0 +1,79 @@
+/* Design system */
+
+@font-face {
+    font-family: "Fraunces";
+    src: url(./assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url(./assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+}
+
+:root {
+    --color-dark-purple: #24053E;
+    --color-eucalyptus: #44FFA1;
+    --color-davys-grey: #584D62;
+    --color-ghost-white: #FCF8FF;
+    --color-white: #FFF;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+
+h1, h2, h3 {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 8rem;
+    line-height: 8rem;
+}
+
+h2 {
+    font-size: 5.6rem;
+    line-height: 6.4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+
+button {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.button-primary {
+    color: var(--color-dark-purple);
+    background-color: var(--color-eucalyptus);
+    padding: 1.8rem 3rem;
+    border: 0.2rem solid var(--color-eucalyptus);
+}
+
+.button-primary:hover {
+    color: var(--color-eucalyptus);
+    background-color: transparent;
+}
+
+.button-secondary {
+    color: var(--color-white);
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.3rem solid var(--color-eucalyptus);
+    padding: 0.5rem 0;
+}
+
+.button-secondary:hover {
+    color: var(--color-eucalyptus);
+}
