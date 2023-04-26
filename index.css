@@ -77,3 +77,64 @@ button {
 .button-secondary:hover {
     color: var(--color-eucalyptus);
 }
+
+/* Misc */
+
+.container {
+    max-width: 111.4rem;
+    margin: 0 auto;
+}
+
+.underline {
+    text-decoration: underline; 
+    text-decoration-color: var(--color-eucalyptus);    
+    text-underline-offset: 1.2rem;
+    text-decoration-thickness: 0.2rem; 
+}
+
+/* Hero */
+
+.hero-section {
+    height: 73rem;
+    padding-top: 5.7rem; 
+    background-color: var(--color-dark-purple);
+    position: relative;
+}
+
+.hero-section__left_pattern {
+    position: absolute;
+    left: -14rem;
+    top: 11.6rem;
+}
+
+.hero-section__right_pattern {
+    position: absolute;
+    right: -5rem;
+    top: 31.4rem;
+}
+
+.hero-section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section__hero {
+    width: 63.5rem;    
+    padding: 0 2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero-section__hero > h1 {
+    color: var(--color-white);
+}
+
+.hero-section__hero_image {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+    width: 76.7rem;
+    height: 44.1rem;
+}
