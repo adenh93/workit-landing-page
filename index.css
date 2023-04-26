@@ -24,6 +24,7 @@ html {
 
 body {
     font-family: "Manrope", sans-serif;
+    color: var(--color-dark-purple);
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 3.2rem;
@@ -137,4 +138,35 @@ button {
     transform: translateX(-50%);
     width: 76.7rem;
     height: 44.1rem;
+}
+
+/* Features */
+
+.features-section {
+    height: 73rem; 
+    background-color: var(--color-ghost-white);
+}
+
+.features-section__features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2.6rem;
+    padding-top: 25.5rem;
+}
+
+.features-section__features .feature {
+   text-align: center; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.feature__number {
+    font-weight: 600;
+    font-size: 2.4rem;
+    border: 1px solid var(--color-davys-grey);
+    width: 5.6rem;
+    line-height: 5.6rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
 }
