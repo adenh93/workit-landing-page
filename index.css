@@ -159,13 +159,13 @@ button {
 
 .hero-section__left_pattern {
     position: absolute;
-    left: -14rem;
-    top: 11.6rem;
+    left: -13.7rem;
+    top: 11.7rem;
 }
 
 .hero-section__right_pattern {
     position: absolute;
-    right: -5rem;
+    right: -4.9rem;
     top: 31.4rem;
 }
 
@@ -207,11 +207,13 @@ button {
     } 
 
     .hero-section__left_pattern {
-        left: -22.5rem;
+        top: 7.1rem;
+        left: -22.7rem;
     }
 
     .hero-section__right_pattern {
-        right: -9rem;
+        top: 25rem;
+        right: -9.3rem;
     }
 
     .hero-section__hero_image {
