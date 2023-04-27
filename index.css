@@ -18,10 +18,6 @@
     --color-white: #FFF;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 html {
     font-size: 62.5%;
 }
@@ -343,6 +339,8 @@ button {
     top: 17.3rem;
     left: 54.5rem;
     right: 16.5rem; 
+    height: 41.3rem;
+    box-sizing: border-box;
 }
 
 .founder__intro > h2, .founder__intro > p {
