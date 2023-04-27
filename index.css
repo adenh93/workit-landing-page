@@ -80,10 +80,20 @@ button {
 }
 
 @media (max-width: 1440px) {
+    body {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+    }
+
     h1 {
         font-size: 6rem;
         line-height: 6rem;
     } 
+
+    h3 {
+        font-size: 2.8rem;
+        line-height: 3.6rem;
+    }
 }
 
 @media(max-width: 768px) {
@@ -131,8 +141,8 @@ button {
 /* Hero */
 
 .hero-section {
-    height: 73rem;
     padding-top: 5.7rem; 
+    padding-bottom: 32.6rem;
     background-color: var(--color-dark-purple);
     position: relative;
 }
@@ -177,8 +187,8 @@ button {
 
 @media (max-width: 1440px) {
     .hero-section {
-        height: 54rem;
         padding-top: 3.2rem;
+        padding-bottom: 20rem;
     }
 
     .hero-section__hero {
@@ -197,13 +207,13 @@ button {
     .hero-section__hero_image {
         width: 51.4rem;
         height: 29.6rem;
-        top: 39.2rem;
+        top: 40rem;
     }
 }
 
 @media (max-width: 768px) {
     .hero-section {
-        height: 48.1rem;
+        padding-bottom: 15.6rem;
     }
 
     .hero-section__hero {
@@ -224,7 +234,8 @@ button {
 /* Features */
 
 .features-section {
-    height: 73rem; 
+    padding-top: 25.5rem;
+    padding-bottom: 17.1rem;
     background-color: var(--color-ghost-white);
 }
 
@@ -232,7 +243,6 @@ button {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2.6rem;
-    padding-top: 25.5rem;
 }
 
 .features-section__features .feature {
@@ -246,10 +256,54 @@ button {
     font-weight: 600;
     font-size: 2.4rem;
     border: 1px solid var(--color-davys-grey);
-    width: 5.6rem;
+    min-width: 5.6rem;
+    font-family: "Fraunces", sans-serif;
     line-height: 5.6rem;
     border-radius: 50%;
-    margin-bottom: 2rem;
+    text-align: center;
+}
+
+@media (max-width: 1440px) {
+    .features-section {
+        padding-top: 20.3rem;
+        padding-bottom: 10.3rem;
+    }
+
+    .features-section__features {
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 1fr);
+        width: 57.3rem;
+        margin: 0 auto;
+    } 
+
+    .features-section__features .feature {
+        flex-direction: row;
+        text-align: left;
+        column-gap: 3.2rem;
+    }
+
+    .feature__number {
+        font-size: 2rem;
+        min-width: 4.8rem;
+        line-height: 4.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .features-section {
+        padding-top: 15.5rem;
+        padding-bottom: 7.1rem;
+    }
+
+    .features-section__features {
+        width: unset;
+        row-gap: 4rem;
+    }
+
+    .features-section__features .feature {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 /* Footer */
